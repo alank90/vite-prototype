@@ -6,7 +6,7 @@
 
 **\$ git commit -m "First commit"**
 
-_Note- Remember to add node_modules/ directory to .gitignore file befor the commit_
+_Note- Remember to add node_modules/ directory to .gitignore file before the commit_
 
 ## === Checkout(Create) Local Branch and Setup Remote Repo to Track It: ===
 
@@ -37,6 +37,11 @@ _Note- Remember to add node_modules/ directory to .gitignore file befor the comm
 ### ======== e.g. git push origin master =============================
 
 **\$ git push [name_of_your_new_remote][name_of_your_branch]**
+
+### ========== Amend last Git commit ================= ###
+**\$ git commit --amend --no-edit**
+### ==== Edit last commit message only ==== ###
+**\$ git commit --amend -m "Your new commit message"**
 
 ## ============= Git Clone ============
 
