@@ -1,4 +1,4 @@
-## ================= Initialize git in your project: =========
+## ====== Initialize git in your project: =========
 
 **\$ git init**
 
@@ -34,7 +34,7 @@ _Note- Remember to add node_modules/ directory to .gitignore file before the com
 
 ## ==== Push changes from your local commit into your remote branch: ====
 
-### ======== e.g. git push origin master =============================
+### ======= e.g. git push origin master ================
 
 **\$ git push [name_of_your_new_remote][name_of_your_branch]**
 
@@ -47,7 +47,7 @@ _Note- Remember to add node_modules/ directory to .gitignore file before the com
 
 **\$ git clone [repo url] <optional> new repo name**
 
-## ============ Delete a branch on your local filesystem: ============
+## ======= Delete a branch on your local filesystem: ========
 
 **\$ git branch -d [name_of_your_branch]**
 
@@ -77,7 +77,7 @@ _Note- Remember to add node_modules/ directory to .gitignore file before the com
 
 ## ========= Merging Branches with Git =================
 
-## ========= First make sure both branches are up-to-date w/\$ git status, then:
+## === First make sure both branches are up-to-date w/\$ git status, then:
 
 ### Switch to branch 'master'
 
@@ -101,7 +101,7 @@ _Finally, Delete the branch on github_
 
 **\$ git remote prune origin** _This solves problem of old branches showing up in git branch -r_
 
-## ==================== Remove Remote Repo =======
+## ========= Remove Remote Repo =======
 
 **\$ git remote -v**
 
@@ -155,7 +155,7 @@ _Step 4. Push your changes to your git repo._
 
 **\$ git push origin v1.5**
 
-## ================ Revert To Another Commit ============================
+## ============= Revert To Another Commit ======================
 
 ### See https://www.atlassian.com/git/tutorials/undoing-changes for more examples
 
@@ -191,11 +191,11 @@ $ git push
 
 ## ===========================================
 
-## ==== List of Globally Installed Packages ============
+## ==== List of Globally Installed Packages ==========
 
 **npm list -g --depth 0**
 
-## ==== Updating Global Packages ========================
+## ==== Updating Global Packages =====================
 To check which global packages need updating:
 
 **npx npm-check --global**
