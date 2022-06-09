@@ -11,6 +11,7 @@
 **git remote add origin https://github.com/alank90/\<project_name.git>**
 
 **git push -u origin main**
+
 _Note- Remember to add node_modules/ directory to .gitignore file before the commit_
 
 ## === Checkout(Create) Local Branch and Setup Remote Repo to Track It: ===
