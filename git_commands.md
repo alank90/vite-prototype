@@ -9,7 +9,8 @@
 **git branch -M main**
 
 **Add a remote repo from command line with Github CLI**
- **gh api --method POST -H "Accept: application/vnd.github+json" /user/repos -f name='my-portfolio' -f description='My remade portfolio site'**
+
+ **_gh api --method POST -H "Accept: application/vnd.github+json" /user/repos -f name='my-portfolio' -f description='My remade portfolio site'_**
 
 **git remote add origin https://github.com/alank90/\<project_name.git>**
 
