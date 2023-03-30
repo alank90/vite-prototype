@@ -18,7 +18,13 @@ _npm install_
 
 &nbsp;&nbsp;Unfortunately as of this writing we also have to run _npm install vue@next_ seperately to insure latest version of vue is installed for the new project.
 
+### Deploying to Netlify
+- ***npm run build***
 
+- ***netlify init*** (Follow the prompts to add a project to netlify.)
+
+- ***netlify env:import .env*** (If necessary. You must then rebuild the project to add the environment 
+  variables to your project.)
 
 
 
