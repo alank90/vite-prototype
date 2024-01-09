@@ -8,8 +8,9 @@ module.exports = {
     ecmaVersion: 13,
     sourceType: "module",
   },
-  plugins: ["vue"],
+  plugins: ["vue","@stylistic/js"],
   rules: {
+    "@stylistic/semi": "error",
     "vue/no-multiple-template-root": "off",
     "vue/multi-word-component-names": [
       "error",
