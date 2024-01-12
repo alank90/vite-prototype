@@ -6,7 +6,10 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <!-- =============== route outlet ============================================= -->
+  <!-- component matched by the route will render here ========================== -->
+  <router-view></router-view>
+  <!-- =============== End route outlet ========================================= -->
 </template>
 
 <style>
