@@ -11,12 +11,14 @@ import HelloWorld from './components/HelloWorld.vue'
 
   <HelloWorld msg="Vite + Vue" />
 
-  /* Replace markup with this if using vue router
+  <!-- Replace markup with this if using vue router and uncomment <router-view> line, if not delete -->
+  <!-- this markup. Don't forget you need to add view files for About and NotFound routes in the -->
+  <!-- \views directory. -->
   <!-- =============== route outlet ============================================= -->
   <!-- component matched by the route will render here ========================== -->
-  <router-view></router-view>
+  <!-- <router-view></router-view> -->
   <!-- =============== End route outlet ========================================= -->
-  */
+  <!-- End vue router markup -->
 </template>
 
 <style>
