@@ -5,7 +5,6 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
   <a href="https://vuejs.org/" target="_blank">
     <img src="./assets/logo.png" class="logo vue" alt="Vue logo" />
   </a>
